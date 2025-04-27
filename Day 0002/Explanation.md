@@ -1,7 +1,4 @@
-# Problem: Count Subarrays of Length Three With a Condition
-
-**LeetCode Problem Link:**  
-[Count Subarrays of Length Three With a Condition](https://leetcode.com/problems/count-subarrays-of-length-three-with-a-condition/?envType=daily-question&envId=2025-04-27)
+# [Count Subarrays of Length Three With a Condition](https://leetcode.com/problems/count-subarrays-of-length-three-with-a-condition/?envType=daily-question&envId=2025-04-27)
 
 ---
 
