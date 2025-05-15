@@ -1,6 +1,6 @@
 **📘 Problem Explanation: Longest Unequal Adjacent Groups Subsequence I**
 
-**🔗 Problem Link:** [https://leetcode.com/problems/longest-unequal-adjacent-groups-subsequence-i/](https://leetcode.com/problems/longest-unequal-adjacent-groups-subsequence-i/)
+[**🔗 Problem Link:**](https://leetcode.com/problems/longest-unequal-adjacent-groups-subsequence-i/)
 
 ---
 
@@ -17,7 +17,7 @@ You're given two lists:
 
 ### 💡 Key Idea:
 
-We want to build the **longest** subsequence where **no two consecutive elements** have the same group. So we only include a word if its group is **different** from the last added word’s group.
+We want to build the **longest** subsequence where **no two consecutive elements** have the same group. So we only include a word if its group is **different** from the last added word's group.
 
 This is a greedy strategy — at every step, we make the locally optimal decision by checking only the previous group.
 
@@ -28,7 +28,7 @@ This is a greedy strategy — at every step, we make the locally optimal decisio
 * Start with an empty answer list.
 * Iterate through all words:
 
-  * If the answer list is empty OR the current word's group is different from the last selected word’s group, then add the word to the answer.
+  * If the answer list is empty OR the current word's group is different from the last selected word's group, then add the word to the answer.
 
 This guarantees a valid and longest possible sequence.
 
